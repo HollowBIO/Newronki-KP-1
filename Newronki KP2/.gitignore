@@ -14,3 +14,9 @@ Data/val/
 # Trained models (too big for GitHub, recreated by the training scripts)
 *.keras
 *.weights.h5
+
+# Backup the report builder makes before overwriting
+*.backup.docx
+
+# Backup the report builder makes before overwriting the report
+*.backup.docx
