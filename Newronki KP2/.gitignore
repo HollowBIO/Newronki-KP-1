@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+~$*
+
+# Dataset: download rps.zip and rps-test-set.zip from
+# https://storage.googleapis.com/download.tensorflow.org/data/, unzip into Data/,
+# then run Data/step7_random_split.py to create train/ and val/
+Data/*.zip
+Data/rps/
+Data/rps-test-set/
+Data/train/
+Data/val/
+
+# Trained models (too big for GitHub, recreated by the training scripts)
+*.keras
+*.weights.h5
